@@ -38,12 +38,21 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Box(contentAlignment = Alignment.Center,modifier = Modifier.size(400.dp, 400.dp).background(Color.Green)) {
-        Box(modifier = Modifier.size(200.dp, 200.dp).background(Color.Red)) {
 
-        }
+    Row(horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically,
+    modifier = Modifier.size(400.dp, 200.dp).background(Color.Gray)) {
+        Box(modifier = Modifier
+            .size(100.dp, 100.dp)
+            .background(Color.Black))
+        Box(modifier = Modifier
+            .size(100.dp, 100.dp)
+            .background(Color.Red))
+        Box(modifier = Modifier
+            .size(100.dp, 100.dp)
+            .background(Color.Blue))
     }
-    }
+
+}
 
 @Preview(showBackground = true)
 @Composable
