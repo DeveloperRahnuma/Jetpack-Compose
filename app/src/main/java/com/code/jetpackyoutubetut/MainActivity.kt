@@ -38,10 +38,12 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Image(painter = painterResource(id = R.drawable.ic_launcher_background), contentDescription = "This is image class",
-        modifier = Modifier.size(100.dp, 100.dp)
-        )
-}
+    Box(contentAlignment = Alignment.Center,modifier = Modifier.size(400.dp, 400.dp).background(Color.Green)) {
+        Box(modifier = Modifier.size(200.dp, 200.dp).background(Color.Red)) {
+
+        }
+    }
+    }
 
 @Preview(showBackground = true)
 @Composable
