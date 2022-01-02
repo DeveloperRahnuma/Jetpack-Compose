@@ -38,15 +38,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    //for styling text first way
-   Text(text = "Hello $name!", color = Color.Black, fontSize = 20.sp)
-
-    //secound way
-    Text(text = "Hello user", style = TextStyle(
-        color = Color.Blue,
-        fontSize = 20.sp,
-        fontWeight = FontWeight.Bold
-    ))
+    Image(painter = painterResource(id = R.drawable.ic_launcher_background), contentDescription = "This is image class",
+        modifier = Modifier.size(100.dp, 100.dp)
+        )
 }
 
 @Preview(showBackground = true)
