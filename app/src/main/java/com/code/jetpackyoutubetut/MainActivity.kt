@@ -15,8 +15,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.code.jetpackyoutubetut.ui.theme.JetpackYoutubeTutTheme
 
 class MainActivity : ComponentActivity() {
@@ -35,7 +38,15 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-   Text(text = "Hello $name!")
+    //for styling text first way
+   Text(text = "Hello $name!", color = Color.Black, fontSize = 20.sp)
+
+    //secound way
+    Text(text = "Hello user", style = TextStyle(
+        color = Color.Blue,
+        fontSize = 20.sp,
+        fontWeight = FontWeight.Bold
+    ))
 }
 
 @Preview(showBackground = true)
