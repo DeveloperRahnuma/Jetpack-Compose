@@ -39,8 +39,9 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String) {
 
-    Row(horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically,
-    modifier = Modifier.size(400.dp, 200.dp).background(Color.Gray)) {
+    Column(verticalArrangement = Arrangement.Center,horizontalAlignment = Alignment.CenterHorizontally,modifier = Modifier
+        .size(200.dp, 400.dp)
+        .background(Color.Green)) {
         Box(modifier = Modifier
             .size(100.dp, 100.dp)
             .background(Color.Black))
@@ -50,6 +51,7 @@ fun Greeting(name: String) {
         Box(modifier = Modifier
             .size(100.dp, 100.dp)
             .background(Color.Blue))
+
     }
 
 }
