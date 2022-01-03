@@ -31,3 +31,15 @@ https://www.youtube.com/watch?v=AyjcNxb7xwU&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR
 #### Lecture Seven
 here you will learn how to use Column in jetpack compose and how to put style in it
 https://www.youtube.com/watch?v=ovijQ6K9EJ0&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=7
+
+#### Lecture Eight
+here you will learn What is preview Annotation in jetpack compose and how to put style in it
+https://www.youtube.com/watch?v=NC9VbHJc9zI&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=8
+
+#### Lecture Nine
+here you will learn how to use Card in jetpack compose and how to put style in it
+https://www.youtube.com/watch?v=2SMGsSB-4sI&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=9
+
+#### Lecture Ten
+here you will learn how to use TextField in jetpack compose and how to put style in it
+https://youtu.be/2SMGsSB-4sI
