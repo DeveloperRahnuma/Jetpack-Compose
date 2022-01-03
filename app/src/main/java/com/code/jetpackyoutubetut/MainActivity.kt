@@ -6,6 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
@@ -39,20 +41,33 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String) {
 
-    Column(verticalArrangement = Arrangement.Center,horizontalAlignment = Alignment.CenterHorizontally,modifier = Modifier
-        .size(200.dp, 400.dp)
-        .background(Color.Green)) {
-        Box(modifier = Modifier
-            .size(100.dp, 100.dp)
-            .background(Color.Black))
-        Box(modifier = Modifier
-            .size(100.dp, 100.dp)
-            .background(Color.Red))
-        Box(modifier = Modifier
-            .size(100.dp, 100.dp)
-            .background(Color.Blue))
+//    Column(verticalArrangement = Arrangement.Center,horizontalAlignment = Alignment.CenterHorizontally,modifier = Modifier
+//        .size(200.dp, 400.dp)
+//        .background(Color.Green)) {
+//        Box(modifier = Modifier
+//            .size(100.dp, 100.dp)
+//            .background(Color.Black))
+//        Box(modifier = Modifier
+//            .size(100.dp, 100.dp)
+//            .background(Color.Red))
+//        Box(modifier = Modifier
+//            .size(100.dp, 100.dp)
+//            .background(Color.Blue))
+//
+//    }
 
+    Card(modifier = Modifier.size(400.dp, 400.dp),
+        shape = RoundedCornerShape(60.dp),
+        backgroundColor = Color.Red,
+        contentColor = Color.Black
+    ) {
+        Text(text = "Demo App", style = TextStyle(
+            fontSize = 50.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White
+        ))
     }
+
 
 }
 
