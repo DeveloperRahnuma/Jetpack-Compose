@@ -58,8 +58,14 @@ fun Greeting(name: String) {
 
 @Preview(showBackground = true)
 @Composable
-fun DefaultPreview() {
+fun DefaultPreview_one() {
     JetpackYoutubeTutTheme {
         Greeting("Android")
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun Defult_preview_two(){
+    Greeting(name = "Hi Youtube")
 }
