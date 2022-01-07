@@ -42,4 +42,4 @@ https://www.youtube.com/watch?v=2SMGsSB-4sI&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR
 
 #### Lecture Ten
 here you will learn how to use TextField in jetpack compose and how to put style in it
-https://youtu.be/2SMGsSB-4sI
+https://www.youtube.com/watch?v=uB9kcjYCqPA&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=10
