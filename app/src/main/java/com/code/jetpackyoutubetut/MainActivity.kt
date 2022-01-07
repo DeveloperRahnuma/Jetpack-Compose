@@ -37,9 +37,12 @@ class MainActivity : ComponentActivity() {
             JetpackYoutubeTutTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    val expendableCard = ExpendableCard()
-                    expendableCard.expendableCard()
+//                    val expendableCard = ExpendableCard()
+//                    expendableCard.expendableCard()
 //                    Greeting("Android")
+
+                    var pass = LazyColume()
+                    pass.Lazyy()
                 }
             }
         }

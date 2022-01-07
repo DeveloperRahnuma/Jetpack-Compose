@@ -33,7 +33,7 @@ class ExpendableCard {
         Column(modifier = Modifier.fillMaxWidth()) {
             Card(
                 onClick = {expendableCardclick = !expendableCardclick},
-                modifier = Modifier 
+                modifier = Modifier
                     .fillMaxWidth()
                     .animateContentSize(
                         animationSpec = tween(
