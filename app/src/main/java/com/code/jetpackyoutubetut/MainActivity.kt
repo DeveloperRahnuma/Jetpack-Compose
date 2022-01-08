@@ -41,8 +41,8 @@ class MainActivity : ComponentActivity() {
 //                    expendableCard.expendableCard()
 //                    Greeting("Android")
 
-                    var pass = LazyColume()
-                    pass.Lazyy()
+                    var pass = LazyyRow()
+                    pass.lazyyy()
                 }
             }
         }
