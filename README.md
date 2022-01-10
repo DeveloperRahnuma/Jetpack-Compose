@@ -65,3 +65,27 @@ https://www.youtube.com/watch?v=5IYdqoAv1nQ&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR
 #### Lecture 16
 here you will learn how to use gredient color for background color in jetpack compose
 https://www.youtube.com/watch?v=vyJ8Eh7qPb4&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=16
+
+#### Lecture 17
+here you will learn what is lazy column and how its is different from normal colume in jetpack compose
+https://www.youtube.com/watch?v=xC1XHpKnC7A&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=17
+
+#### Lecture 18
+here you will learn what is lazy row and how its is different from normal row in jetpack compose
+https://www.youtube.com/watch?v=xC1XHpKnC7A&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=17
+
+#### Lecture 19
+here you will learn how to fix length if string in textfield in jetpack compose
+https://www.youtube.com/watch?v=NwRdel3TprI&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=18
+
+#### Lecture 20
+here you will learn how to use switch button in jetpack compose
+https://www.youtube.com/watch?v=6xAz4gg1Ncw&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=19
+
+#### Lecture 21
+here you will learn how to use sticky header in jetpack compose
+https://www.youtube.com/watch?v=lUWb-91RkzY&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=20
+
+#### Lecture 22
+here you will learn how to use simple animation with help of box in jetpack compose
+https://www.youtube.com/watch?v=2tAaifLhqVk&list=PLFLkyNEX22scGPSlfG7s9qSAQWlEjR-ic&index=21
