@@ -3,6 +3,7 @@ package com.code.jetpackyoutubetut
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -30,6 +31,7 @@ import com.code.jetpackyoutubetut.ui.theme.JetpackYoutubeTutTheme
 import java.util.*
 
 class MainActivity : ComponentActivity() {
+    @ExperimentalFoundationApi
     @ExperimentalMaterialApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,8 +43,8 @@ class MainActivity : ComponentActivity() {
 //                    expendableCard.expendableCard()
 //                    Greeting("Android")
 
-                    var pass = LazyyRow()
-                    pass.lazyyy()
+                    var pass = Lecture22()
+                    pass.animatedBox()
                 }
             }
         }
