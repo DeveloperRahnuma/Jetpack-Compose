@@ -7,6 +7,7 @@ import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
@@ -37,14 +38,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             JetpackYoutubeTutTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(color = MaterialTheme.colors.background) {
-//                    val expendableCard = ExpendableCard()
-//                    expendableCard.expendableCard()
-//                    Greeting("Android")
-
-                    var pass = Lecture22()
-                    pass.animatedBox()
+                LazyColumn() {
+                    items(10) {
+                        animatedShimmer()
+                    }
                 }
             }
         }
@@ -86,7 +83,7 @@ fun Greeting(name: String) {
 
 }
 
-@Preview(showBackground = true)
+//@Preview(showBackground = true)
 @Composable
 fun Defult_preview_three(){
     OutlinedTextField(
@@ -112,7 +109,7 @@ fun Defult_preview_three(){
     )
 }
 
-@Preview(showBackground = true)
+//@Preview(showBackground = true)
 @Composable
 fun DefaultPreview_one() {
     JetpackYoutubeTutTheme {
@@ -140,7 +137,7 @@ fun DefaultPreview_one() {
     }
 }
 
-@Preview(showBackground = true)
+//@Preview(showBackground = true)
 @Composable
 fun Defult_preview_two(){
     TextField(
